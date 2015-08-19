@@ -26,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
   ## return matrix received as input
   getmatrix <- function() {x}
   
-  ## takes a new matrix a input to change the current matrix
+  ## takes a new matrix as input to change the current matrix
   ## resets  inverse to NULL, since it has to be recalculated for the new matrix
   setmatrix <- function(y){
     x <<- y
